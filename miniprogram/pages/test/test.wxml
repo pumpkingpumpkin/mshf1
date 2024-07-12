@@ -1,0 +1,17 @@
+<view class="box">
+  <button type="warn" plain size="mini" bind:tap="onValidator">测试表单校验</button>
+</view>
+<view class="box">
+  <button type="warn" plain size="mini" bind:tap="handler">测试发送请求</button>
+</view>
+<view class="box">
+  <button type="warn" plain size="mini" bind:tap="handler1">测试发送请求</button>
+</view>
+<view class="box">
+  <button type="warn" plain size="mini" bind:tap="allHander">测试发送请求</button>
+</view>
+<view class="box1">
+  <button class="btn" open-type="chooseAvatar" bindchooseavatar="chooseavatar">
+    <image class="avatar" src="{{avatarUrl}}" mode=""/>
+  </button>
+</view>

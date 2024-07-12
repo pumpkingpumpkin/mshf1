@@ -1,0 +1,16 @@
+.box{
+  display: flex;
+  height: 200rpx;
+  justify-content: center;
+  align-items: center;
+}
+.box1{
+  .btn{
+    image{
+      height: 300rpx;
+      width: 300rpx;
+    }
+    
+  }
+  
+}
